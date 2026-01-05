@@ -25,7 +25,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-4@u84mm=lxjfhz&c0!szlvzpc9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', 'True') == 'True'
 
-ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['https://eali-web-frontend.onrender.com']
 CSRF_TRUSTED_ORIGINS = ['https://*.onrender.com']
 
 
